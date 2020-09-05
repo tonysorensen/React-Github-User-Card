@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header'
+import Users from './components/Users'
+
+
+
 function App() {
   return (
     <div className="App">
     <Header/>
-      <h1>hi</h1>
+    <h1>Github Users You Should Follow</h1>
+    <Users/>
+      
     </div>
   );
 }

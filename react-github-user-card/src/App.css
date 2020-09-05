@@ -12,18 +12,25 @@ body{
 .App{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .header{
+  width: 100%;
   background-color: rgb(126, 125, 125);
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 30px
+font-size: 30px;
+margin-bottom: 50px;
 }
 
 .logo{
 height: 150px;
 width: 150px;
 margin: 30px 50px
+}
+
+h1{
+color:rgb(49, 49, 49);
 }
